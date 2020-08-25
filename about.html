@@ -15,29 +15,25 @@
 
     <body>
         <header>
-            <div class="menu-btn">
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-            </div>
-            <nav class="menu">
-                <div class="menu-branding">
-                    <div class="portrait"></div>
-                </div>
-                <ul class="menu-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Accueil</a>
+            <nav class="menu-top">
+                <ul class="menu-top-list">
+                    <li class="nav-item-top">
+                        <a href="index.html" class="nav-link-top">Accueil</a>
                     </li>
-                    <li class="nav-item current">
-                        <a href="about.html" class="nav-link"
+                    <li class="nav-item-top">
+                        <a href="about.html" class="nav-link-top current-menu"
                             >A propos de moi</a
                         >
                     </li>
-                    <li class="nav-item">
-                        <a href="projects.html" class="nav-link">Mes projets</a>
+                    <li class="nav-item-top">
+                        <a href="projects.html" class="nav-link-top"
+                            >Mes projets</a
+                        >
                     </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Me contacter</a>
+                    <li class="nav-item-top">
+                        <a href="contact.html" class="nav-link-top"
+                            >Me contacter</a
+                        >
                     </li>
                 </ul>
             </nav>
@@ -56,53 +52,161 @@
                 />
 
                 <div class="bio">
-                    <h3 class="text-secondary">BIO</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Ratione aliquid aliquam adipisci praesentium ipsum
-                        nam earum? Veritatis minus dolorem quisquam mollitia
-                        recusandae at numquam asperiores, facilis, temporibus
-                        inventore repellendus maxime. Atque architecto, numquam
-                        excepturi nesciunt, porro molestias a sed totam cumque
-                        eos molestiae aperiam velit earum iusto laudantium
-                        placeat assumenda.
-                    </p>
+                    <h3 class="text-secondary bio-title">BIO</h3>
+                    <div class="about-intro">
+                        <p>
+                            Passionné par les mathématiques, la physique et
+                            autres sciences exactes, ma curiosité m'a amené à
+                            m'intéresser plus en profondeur aux nouvelles
+                            technologies, en particulier dans le domaine de la
+                            programmation.
+                        </p>
+                        <p>
+                            Le code a ceci de fascinant qu'il permet de donner
+                            vie à des projets très variés, laissant libre court
+                            à la créativité et l'originalité.
+                        </p>
+                        <p>
+                            C'est tout logiquement que je me suis formé au
+                            métier de développeur web à l'école O'clock au
+                            deuixème semestre de l'année 2019, qui m'a permis
+                            d'acquérir des bases solides en programmation
+                            notamment des langages PHP et javaScript. Depuis, je
+                            suis un développeur web à la recherche de projets
+                            qui me permettront de m'épanouir professionnellement
+                            et d'exploiter mes connaissances dans des défis
+                            enrichissants et inspirants.
+                        </p>
+                        <p>
+                            N'hésitez pas à me contacter pour toute offre de
+                            développement web et mobile.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="job job-1">
-                    <h3>Entreprise</h3>
-                    <h6>Développeur</h6>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias dolores aliquid nesciunt, quaerat voluptates
-                        reiciendis provident, dicta neque hic sunt consectetur
-                        fugiat deleniti quasi? Earum consectetur dolorem tempore
-                        aut autem numquam aspernatur iusto similique excepturi
-                        dolor atque maiores tenetur, ducimus reiciendis impedit
-                        modi ut soluta enim facilis perspiciatis. Ipsam,
-                        similique.
-                    </p>
+                    <h3 class="job-title">Formation</h3>
+                    <h4>Ecole O'clock</h4>
+                    <div class="job-description">
+                        La formation de 5 mois (700h) de l'école O'clock, aussi
+                        labellisée « Grande École du Numérique », se décompose
+                        de la sorte :
+                        <ol>
+                            <li>
+                                Le « Socle » de 3 mois apportant les bases du
+                                développement avec les technologies HTML5, CSS3,
+                                JavaScript, PHP et MySQL ;
+                            </li>
+                            <li>
+                                La « Spécialisation » (1 mois, sur Wordpress) :
+                                <ul>
+                                    <li>
+                                        découverte de WordPress, gestion du
+                                        workflow en milieu professionnel avec
+                                        Webpack, Composer et NPM) ;
+                                    </li>
+                                    <li>
+                                        configuration de WordPress pour une
+                                        installation personnalisée custom ;
+                                    </li>
+                                    <li>
+                                        mise en place de Webpack pour compiler
+                                        les fichiers afin de les regrouper en un
+                                        seul ;
+                                    </li>
+                                    <li>
+                                        notions avancées autour des thèmes et
+                                        plugins (création de plugins simples,
+                                        installation et définition d'autres tels
+                                        ACF ou Simply Show hooks) ;
+                                    </li>
+                                    <li>
+                                        principes avancés autour de WordPress et
+                                        mise en production (REST API,
+                                        déploiement etc).
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                L'« Apothéose » (1 mois) : Projet de fin de
+                                formation permettant de mettre en pratique
+                                toutes les connaissances acquises pour
+                                l'élaboration d'un projet professionnel.
+                            </li>
+                        </ol>
+                    </div>
                 </div>
 
                 <div class="job job-2">
-                    <h3>Entreprise</h3>
-                    <h6>Développeur</h6>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias dolores aliquid nesciunt, quaerat voluptates
-                        reiciendis provident, dicta neque hic sunt consectetur
-                        fugiat deleniti quasi? Earum consectetur dolorem tempore
-                        aut autem numquam aspernatur iusto similique excepturi
-                        dolor atque maiores tenetur, ducimus reiciendis impedit
-                        modi ut soluta enim facilis perspiciatis. Ipsam,
-                        similique.
-                    </p>
+                    <h3 class="job-title">Technologies</h3>
+                    <div class="skills">
+                        <img
+                            src="img/skills/html5.png"
+                            alt="HTML 5"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/css3.jpg"
+                            alt="CSS 3"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/bootstrap.png"
+                            alt="Bootstrap"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/javascript.png"
+                            alt="JavaScript"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/jquery.png"
+                            alt="jQuery"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/nodejs.png"
+                            alt="nodejs"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/php.png"
+                            alt="PHP"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/mongodb.jpg"
+                            alt="MongoDb"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/react.jpg"
+                            alt="React"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/symfony.jpg"
+                            alt="Symfony"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/wordpress.png"
+                            alt="WordPress"
+                            class="skill-logo"
+                        />
+                        <img
+                            src="img/skills/git.jpg"
+                            alt="Git"
+                            class="skill-logo"
+                        />
+                    </div>
                 </div>
 
                 <div class="job job-3">
-                    <h3>Entreprise</h3>
+                    <h3 class="job-title">Entreprise</h3>
                     <h6>Développeur</h6>
-                    <p>
+                    <p class="job-description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Molestias dolores aliquid nesciunt, quaerat voluptates
                         reiciendis provident, dicta neque hic sunt consectetur
