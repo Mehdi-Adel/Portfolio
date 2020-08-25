@@ -129,6 +129,32 @@
     }
 }
 
+// .menu-top {
+
+// }
+
+.menu-top-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.nav-link-top {
+    padding: 0.4em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.current-menu {
+    color: $secondary-color;
+}
+
 // Délai de chaque slide de nav de 0,1s
 @for $x from 1 through 4 {
     .nav-item:nth-child(#{$x}) {
