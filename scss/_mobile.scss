@@ -3,11 +3,17 @@
     .projects {
         grid-template-columns: repeat(4, 1fr);
     }
+    .menu-slide {
+        display: none;
+    }
 }
 
 //  Desktops & Laptops
 @include mediaLg {
     grid-template-columns: repeat(3, 1fr);
+}
+.menu-slide {
+    display: none;
 }
 
 // Tablettes et petits écrans
@@ -50,6 +56,10 @@
         }
     }
 
+    .menu-slide {
+        display: none;
+    }
+
     .about-info {
         grid-template-areas:
             'bioimage'
@@ -84,11 +94,15 @@
         }
     }
 
+    .menu-slide {
+        display: block;
+    }
+
     .projects {
         grid-template-columns: 1fr;
     }
 
     .menu-top-list {
-        flex-flow: wrap;
+        display: none;
     }
 }
